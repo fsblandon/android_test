@@ -16,7 +16,6 @@ import co.com.ceiba.mobile.pruebadeingreso.model.User;
 import co.com.ceiba.mobile.pruebadeingreso.model.Users;
 import co.com.ceiba.mobile.pruebadeingreso.model.adapters.ApiAdapter;
 import co.com.ceiba.mobile.pruebadeingreso.model.database.DataBaseHelper;
-import co.com.ceiba.mobile.pruebadeingreso.presenter.UserAdapter;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -50,8 +49,6 @@ public class MainActivity extends Activity {
                             db.addUser(user);
                             Log.d("added", user.toString());
                         }
-
-
 
                     }
                 }
